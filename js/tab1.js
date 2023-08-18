@@ -1,9 +1,9 @@
 // Food (табы)
 window.addEventListener('DOMContentLoaded',()=>{
 
-    const tabs = document.querySelectorAll('.tabheader__item');
-    const tabContent = document.querySelectorAll('tabcontent');
-    const tabParent = document.querySelector('.tabheader');
+    const tabs = document.querySelectorAll('.tabheader__item'),
+     tabContent = document.querySelectorAll('tabcontent'),
+     tabParent = document.querySelector('.tabheader');
 
     function hideTabContent(){
         tabContent.forEach(item =>{
@@ -34,4 +34,6 @@ window.addEventListener('DOMContentLoaded',()=>{
             })
         }
     })
+
+})
 // Конец Food (табы)
